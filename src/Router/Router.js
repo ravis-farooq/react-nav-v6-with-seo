@@ -55,7 +55,7 @@ const CustomRouter = () => {
           element={
             <Suspense fallback={<Loader />}>
               <PreventedElement auth={auth}>
-                <Login handleLogin={() => setAuth(true)} />
+                <Login auth={auth} handleLogin={() => setAuth(true)} />
               </PreventedElement>
             </Suspense>
           }

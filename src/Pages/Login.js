@@ -7,7 +7,7 @@ const Login = ({ handleLogin }) => {
     <div className="flex">
       <div>
         <img src={Img} alt="" width="400px" />
-        <p className="center">Login Please</p>
+        <p className="center">Login Please </p>
         <form
           onSubmit={() => {
             handleLogin();
