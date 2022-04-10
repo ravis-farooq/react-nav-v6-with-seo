@@ -12,7 +12,7 @@ const Header = ({ auth, handleLogout }) => {
       </Link>
       {/* for test purpose, I intentionally kept Home link here, In order to make you click on that to show functionality of protected route */}
       <div className="header-right">
-        <Link to="/home">Home</Link>
+        <Link to="/home">Protected</Link>
       </div>
       {!auth ? (
         <div className="header-right">
