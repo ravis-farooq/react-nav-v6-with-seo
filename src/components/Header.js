@@ -16,7 +16,7 @@ const Header = ({ auth, handleLogout }) => {
         <Link to="/home">Protected </Link>
       </div>
       <div className="header-right">
-        <Link to="/login">Login nav for test purpose</Link>
+        <Link to="/login">Login again</Link>
       </div>
       {!auth ? (
         <div className="header-right">
